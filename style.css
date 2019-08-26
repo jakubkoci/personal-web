@@ -5,23 +5,49 @@ body {
   height: 100vh;
   margin: 0;
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 
   color: rgb(34, 34, 34);
   background: rgb(255, 255, 255);
 }
 
 #page {
-  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3em 0;
+}
+
+header #name {
+  text-align: right;
+}
+
+header img {
+  width: 100px;
+  border-radius: 50%;
 }
 
 h1 {
-  margin-top: 2em;
-  font-size: 3em;
+  font-size: 2em;
+  margin: 0;
+  color: #8e1818;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1em;
+}
+
+h3 {
+  color: #8e1818;
+}
+
+p {
+  text-align: justify;
 }
 
 ul {
@@ -41,4 +67,8 @@ a {
 a:hover {
   color: #8b232f;
   text-decoration: underline;
+}
+
+section:last-child {
+  margin-bottom: 5em;
 }
