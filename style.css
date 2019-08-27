@@ -51,10 +51,14 @@ p {
 }
 
 ul {
-  padding: 0;
+  padding-left: 1em;
 }
 
 ul li {
+  margin: 0.7em;
+}
+
+#contacts ul li {
   margin: 0.5em;
   list-style-type: none;
 }
