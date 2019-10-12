@@ -27,8 +27,8 @@ header #name {
   text-align: right;
 }
 
-header img {
-  width: 100px;
+#avatar img {
+  width: 150px;
   border-radius: 50%;
 }
 
