@@ -1,5 +1,25 @@
 const talks = [
   {
+    name: "Building Self-sovereign Identity in South Africa",
+    date: "2020-03-03",
+    event: {
+      name: "Hyperledger Global Forum",
+      link: "https://hgf20.sched.com/event/XodU/building-self-sovereign-identity-in-south-africa-jakub-koci-patrik-stas-absa"
+    },
+    video: {
+      link: "https://www.youtube.com/watch?v=j18YW0N_-7w",
+      lang: "en"
+    }
+  },
+  {
+    name: "Decentralizovaná digitální identita",
+    date: "2019-10-13",
+    event: {
+      name: "jOpenSpace",
+      link: "https://www.jopenspace.cz/"
+    }
+  },
+  {
     name: "Blockchain in Banking: simplifying paperwork, data & security",
     date: "2019-03-20",
     event: {
@@ -45,11 +65,15 @@ talks.forEach(talk => {
 
   const date = formatDate(new Date(talk.date));
 
+  const video = talk.video
+    ? `- ${a(talk.video.link, `video (${talk.video.lang})`)}`
+    : "";
+
   const slides = talk.slides
     ? `- ${a(talk.slides.link, `slides (${talk.slides.lang})`)}`
     : "";
 
-  talkElement.innerHTML = `${talk.name} at ${event}, ${date} ${slides}`;
+  talkElement.innerHTML = `${talk.name} at ${event}, ${date} ${slides} ${video}`;
   talksSection.appendChild(talkElement);
 });
 
