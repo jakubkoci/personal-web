@@ -17,6 +17,15 @@ const talks = [
     event: {
       name: "jOpenSpace",
       link: "https://www.jopenspace.cz/"
+    },
+    video: {
+      link: "https://www.youtube.com/watch?v=vpDNZvzQ8M4",
+      lang: "cz"
+    },
+    slides: {
+      link:
+        "https://s3-eu-west-1.amazonaws.com/files.jakubkoci.com/ssi-jopenspace.pdf",
+      lang: "cz"
     }
   },
   {
