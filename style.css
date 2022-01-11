@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
 
-  height: 100vh;
+  height: 100%;
   margin: 0 3em;
 
   font-family: "Open Sans", sans-serif;
