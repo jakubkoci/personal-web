@@ -1,5 +1,21 @@
 const talks = [
   {
+    name: "Decentralized Digital Identity",
+    date: "2023-12-07",
+    event: {
+      name: "Blockchain and Cryptocurrencies course - MENDELU",
+      link: "https://is.mendelu.cz/katalog/syllabus.pl?predmet=143702",
+    },
+  },
+  {
+    name: "Decentralizovaná digitální identita",
+    date: "2023-11-29",
+    event: {
+      name: "Firemní semináře - MMF UK",
+      link: "https://d3s.mff.cuni.cz/cz/teaching/nswi133/",
+    },
+  },
+  {
     name: "Workshop: How To Build a Self-Sovereign Identity Agent With Hyperledger Aries Framework JavaScript",
     date: "2022-09-14",
     event: {
