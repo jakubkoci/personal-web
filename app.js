@@ -16,6 +16,22 @@ const talks = [
     },
   },
   {
+    name: "Coderetreat Co-Organizer",
+    date: "2023-11-04",
+    event: {
+      name: "Global Day of Coderetreat 2023 - Praha",
+      link: "https://www.meetup.com/coderetreat-cz/events/296145877/?eventOrigin=group_events_list",
+    },
+  },
+  {
+    name: "Coderetreat Co-Organizer",
+    date: "2022-11-05",
+    event: {
+      name: "Global Day of Coderetreat 2022 - Praha",
+      link: "https://www.meetup.com/coderetreat-cz/events/288643297/?eventOrigin=group_events_list",
+    },
+  },
+  {
     name: "Workshop: How To Build a Self-Sovereign Identity Agent With Hyperledger Aries Framework JavaScript",
     date: "2022-09-14",
     event: {
@@ -33,6 +49,23 @@ const talks = [
     video: {
       link: "https://www.youtube.com/watch?v=LbSDjJfj_do",
       lang: "cz",
+    },
+  },
+
+  {
+    name: "Coderetreat Co-Organizer",
+    date: "2021-11-13",
+    event: {
+      name: "Global Day of Coderetreat 2021 - Online",
+      link: "https://www.meetup.com/coderetreat-cz/events/281417882/?eventOrigin=group_events_list",
+    },
+  },
+  {
+    name: "Coderetreat Co-Organizer",
+    date: "2020-11-07",
+    event: {
+      name: "Global Day of Coderetreat 2020 - ČR, Online",
+      link: "https://www.meetup.com/coderetreat-cz/events/273897052/?eventOrigin=group_events_list",
     },
   },
   {
