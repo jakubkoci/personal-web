@@ -1,9 +1,17 @@
 const talks = [
   {
     name: "Decentralized Digital Identity",
+    date: "2024-11-01",
+    event: {
+      name: "Blockchain and Cryptocurrencies course at MENDELU",
+      link: "https://is.mendelu.cz/katalog/syllabus.pl?predmet=152070",
+    },
+  },
+  {
+    name: "Decentralized Digital Identity",
     date: "2023-12-07",
     event: {
-      name: "Blockchain and Cryptocurrencies course - MENDELU",
+      name: "Blockchain and Cryptocurrencies course at MENDELU",
       link: "https://is.mendelu.cz/katalog/syllabus.pl?predmet=143702",
     },
   },
@@ -51,7 +59,6 @@ const talks = [
       lang: "cz",
     },
   },
-
   {
     name: "Coderetreat Co-Organizer",
     date: "2021-11-13",
